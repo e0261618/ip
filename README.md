@@ -11,63 +11,63 @@ Big hello to TIC4001 Project Duke. Duke is a personal assistant chatbot that hel
 6. Type the command in the command box and press Enter to execute it.
 
 ## Features
-Todo: tasks without any date/time attached to it e.g., visit new theme park
-Deadline: tasks that need to be done before a specific date/time e.g., submit report by 11/10/2019 5pm
-Events: tasks that start at a specific time and ends at a specific time e.g., team project meeting on 2/10/2019 2-4pm
-List: list down all the tasks that has been added
-Delete: delete task that you specified
-Find: find keywords in the tasklist
+Todo: tasks without any date/time attached to it e.g., visit new theme park <br/>
+Deadline: tasks that need to be done before a specific date/time e.g., submit report by 11/10/2019 5pm <br/>
+Events: tasks that start at a specific time and ends at a specific time e.g., team project meeting on 2/10/2019 2-4pm <br/>
+List: list down all the tasks that has been added <br/>
+Delete: delete task that you specified <br/>
+Find: find keywords in the tasklist <br/>
 
 ### Todo
-Format: todo 
-Example: todo read book
-Output: 
-Got it. I've added this task:
-[T][✘] watch movie
-Now you have 1 tasks in the list.
+Format: todo <br/>
+Example: todo read book <br/>
+Output: <br/>
+Got it. I've added this task: <br/>
+[T][✘] watch movie <br/>
+Now you have 1 tasks in the list. <br/>
 
 ### Deadline
-Format: deadline {task} /by {yyyy-mm-dd} 
-Example: deadline submit homework /by 2020-09-28
-Output:
-Got it. I've added this task:
-[D][✘] do homework (by: Sep 28 2020)
-Now you have 2 tasks in the list.
+Format: deadline {task} /by {yyyy-mm-dd}  <br/>
+Example: deadline submit homework /by 2020-09-28 <br/>
+Output: <br/>
+Got it. I've added this task: <br/>
+[D][✘] do homework (by: Sep 28 2020) <br/>
+Now you have 2 tasks in the list. <br/>
 
 ### Events
-Format: event {task} /at {yyyy-mm-dd} 
-Example: event project meeting /at 2020-09-28
-Output:
-Got it. I've added this task:
-[E][✘] project meeting (at: Sep 28 2020)
-Now you have 3 tasks in the list.
+Format: event {task} /at {yyyy-mm-dd} <br/>
+Example: event project meeting /at 2020-09-28 <br/>
+Output: <br/>
+Got it. I've added this task: <br/>
+[E][✘] project meeting (at: Sep 28 2020) <br/>
+Now you have 3 tasks in the list. <br/>
 
 ### List
-Format: list
-Example: list
-Output:
-Here are the tasks in your list:
-    1. [T][✘] watch movie
-		2. [D][✘] do homework (by: Sep 28 2020)
-		3. [E][✘] project meeting (at: Sep 28 2020)
+Format: list <br/>
+Example: list <br/>
+Output: <br/>
+Here are the tasks in your list: <br/>
+    1. [T][✘] watch movie <br/>
+    2. [D][✘] do homework (by: Sep 28 2020) <br/>
+    3. [E][✘] project meeting (at: Sep 28 2020) <br/>
 
 ### Delete
-Format: delete {index number} - The index must be a positive integer 1, 2, 3,(...)
-Example: delete 1
-Output:
-Noted. I've removed this task:
-[T][✘] watch movie
-Now you have 2 tasks in the list.
+Format: delete {index number} - The index must be a positive integer 1, 2, 3,(...) <br/>
+Example: delete 1 <br/>
+Output: <br/>
+Noted. I've removed this task: <br/>
+[T][✘] watch movie <br/>
+Now you have 2 tasks in the list. <br/>
 
 ### Find
-Format: find {keyword}
-Example: find project
-Output:
-Here are the matching tasks in your list:
-1. [E][✘] project meeting (at: Sep 28 2020)
+Format: find {keyword} <br/>
+Example: find project <br/>
+Output: <br/>
+Here are the matching tasks in your list: <br/>
+1. [E][✘] project meeting (at: Sep 28 2020) <br/>
 	
-## Saving the data
-Data/Duke.txt is the directory where you can find the list of tasks being saved.
+## Saving the data <br/>
+Data/Duke.txt is the directory where you can find the list of tasks being saved. <br/>
 
-### Support or Contact
-Having trouble with executing the program? Email me [here](e0261618@u.nus.edu) and I’ll help you sort it out.
+### Support or Contact <br/>
+Having trouble with executing the program? Email me [here](e0261618@u.nus.edu) and I’ll help you sort it out. 
